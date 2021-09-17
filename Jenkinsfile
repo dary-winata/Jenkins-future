@@ -4,7 +4,7 @@ php(
     name: "my-app",
     port: "8181:8080"
 )
-php-local(
+phplocal(
     node: "vm",
     nama_file: "testing.jar"
 )
