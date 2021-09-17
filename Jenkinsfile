@@ -1,2 +1,7 @@
 @Library('testing-library') _
-deliveryPipeline()
+php(
+    node: "dockerworker"
+)
+php(
+    node: "vm"
+)
