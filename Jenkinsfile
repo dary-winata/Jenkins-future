@@ -1,9 +1,6 @@
-@Library('testing-library') _
+@Library('testing-shared-library') _
 php(
     node: "dockerworker",
     name: "my-app",
     port: "8181:8080"
-)
-php(
-    node: "vm"
 )
