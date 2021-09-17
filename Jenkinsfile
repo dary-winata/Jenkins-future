@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label "dockerworker"
+    }
     stages {
         stage('Build') {
             steps {
