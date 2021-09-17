@@ -1,4 +1,4 @@
-@Library(['testing-shared-library', 'testing_library']) _
+@Library(['testing-shared-library', 'testing-library']) _
 php(
     node: "dockerworker",
     name: "my-app",
