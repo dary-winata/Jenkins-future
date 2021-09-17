@@ -2,15 +2,14 @@
 @Library('testing-library') l2
 import php;
 import phplocal;
-
 node {
-    new php(
+    php(
         node: "dockerworker",
         name: "my-app",
         port: "8181:8080"
-    );
-    new phplocal(
+    )
+    phplocal(
         node: "vm",
         nama_file: "testing.jar"
-    );
+    )
 }
