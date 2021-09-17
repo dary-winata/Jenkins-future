@@ -1,5 +1,5 @@
 @Library('testing-shared-library') _
-@Library('testing-shared') _
+@Library('testing-library') _
 php(
     node: "dockerworker",
     name: "my-app",
